@@ -1,0 +1,8 @@
+frase = str('Curso em Video Phyton')
+print(frase[3])
+print(frase[0:4])
+print(frase[1:3:2])
+frase = frase.replace('Phyton','Android')
+print(frase.upper().count('O'))
+dividido = frase.split()
+print(dividido)
